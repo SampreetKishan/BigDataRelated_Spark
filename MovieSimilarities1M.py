@@ -1,3 +1,5 @@
+#Objective: Python script that provides the top 10 similar movies 
+#for any specific movie from a list of 1 million movie ratings hosted on a publicly open s3 folder. 
 import sys
 from pyspark import SparkConf, SparkContext
 from math import sqrt
